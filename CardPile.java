@@ -118,6 +118,8 @@ public class CardPile {
 				shuffledDecks.addToBottom(deck.get(j));
 			}
 		}
+		// Use method shuffle from the library Collections
+		Collections.shuffle(shuffledDecks.cards);
 		return shuffledDecks;
 	}
 	
